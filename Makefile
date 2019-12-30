@@ -6,8 +6,9 @@ ifeq ($(OSTYPE),Darwin)
 	include make-mac.mk
 endif
 
+# I'm not fixing the bug, just want to buid a working binary
 ifeq ($(OSTYPE),Linux)
-	include make-linux.mk
+	include make-linux-armada38x.mk
 endif
 
 ifeq ($(OSTYPE),FreeBSD)
