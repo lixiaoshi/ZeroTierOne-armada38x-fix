@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: configure
-      run: echo hello,world
+      run: echo hello,world,a
     - name: make
       run: make
     - name: make check
